@@ -1,0 +1,26 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-replace": "^2.0.2",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.81.0"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^7.1.0"
+  }
+}

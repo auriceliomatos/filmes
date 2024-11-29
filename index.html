@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malvado-Favorito</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+
+            <h1>
+                <img class="header__logo" src="./dist/images/1-MINIOS/1.jpg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assista  agora</a>
+                </li>
+
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <section class="hero"><!---- principal -->
+
+        <div class="hero__content">
+            
+            <h3 class="title--small">De o play vamos assistir ?</h3>
+            
+        </div>
+
+    </section>
+
+    <section class="shows"><!---- barra elenco / elenco -->
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Personagens
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Elenco
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Filmes em Alta
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active"><!---- personagem -->
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/b-1.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/b-2.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/b-1.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/b-2.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/b-1.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/b-2.jpg" alt="Spidey">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list"><!---- elenco -->
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/e1.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/e-2.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/e-4.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/e1.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/e-2.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/e-4.jpg" alt="Obi Wan">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list"><!---- em alta -->
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/q-1.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/q-2.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/q-3.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/q-1.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/q-2.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/1-MINIOS/embreve/q-3.jpg" alt="Obi Wan">
+            </li>
+        </ul>
+    </section>
+
+    <section class="image-text-section"> <!---- sobre filme video -->
+
+        <!----<video>  <source src="https://www.youtube.com/watch?v=XEG0tWu9yKw" type="video/mp4"></video>---> 
+        <picture>
+         <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
+         <img src="./dist/images/1-MINIOS/treiler.jpg" alt="Rei Leão">
+     </picture>
+         <div class="image-text-section__text_container">
+             <h2 class="title"> Minions 4 </h2>
+             <p class="text--big">
+                 Nesta sequência, o vilão mais amado do planeta, que virou agente da Liga Antivilões, retorna para mais uma aventura em Meu Malvado Favorito 4. Agora, Gru (Leandro Hassum), Lucy (Maria Clara Gueiros), Margo (Bruna Laynes), Edith (Ana Elena Bittencourt) e Agnes (Pamella Rodrigues) dão as boas-vindas a um novo membro da família: Gru Jr., que pretende atormentar seu pai. Enquanto se adapta com o pequeno, Gru enfrenta um novo inimigo, Maxime Le Mal (Jorge Lucas) que acaba de fugir da prisão e agora ameaça a segurança de todos, forçando sua namorada mulher-fatal Valentina (Angélica Borges) e a família a fugir do perigo. 
+             </p>
+         </div>
+ 
+     </section>
+
+     <section class="faq"><!---- perguntas e respostas -->
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quem são os Minions e qual a sua origem? 
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Os Minions são pequenas criaturas amarelas que adoram seu mestre e causar confusão por onde passam. Sua origem é um pouco misteriosa, mas sabemos que eles servem aos vilões mais poderosos da história.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual a relação entre Gru e as meninas? 
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Gru, inicialmente um vilão, adota Margo, Edith e Agnes com o objetivo de usar uma de suas invenções para roubar a Lua. No entanto, ao longo da história, ele desenvolve um forte vínculo de pai e filhas com elas.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual a personalidade de cada uma das meninas?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Margo é a mais velha e responsável, Edith é a do meio e adora coisas fofas e animais, enquanto Agnes é a caçula e apaixonada por unicórnios.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="plans"><!---- planos -->
+        <h2 class="title--big">Um plano para atender ao seu estilo </h2>
+        <ul class="plans__list">
+
+            <li class="plans__list__item"><!---- planos 1-->
+                <img src="./dist/images/1-MINIOS/embreve/l-1.jpg" alt="Disney+">
+                
+                <p class="text--big">
+                    No Amatos você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
+                </p>
+                
+            </li>
+            <li class="plans__list__item"><!---- planos 2-->
+                <img src="./dist/images/1-MINIOS/embreve/l-2.jpg" alt="Disney+">
+               
+                <p class="text--big">
+                    Assine Amatos. Economize e aproveite agora os dois serviços por um preço único.
+                </p>
+               
+            </li>
+            <li class="plans__list__item"><!---- planos 3-->
+                <img src="./dist/images/1-MINIOS/embreve/l-3.jpg" alt="Disney+">
+            
+                <p class="text--big">
+                    Amatos, premio em um plano especial. Assine junto com três amigos e ganhe agora os três serviços juntos.
+                </p>
+                
+            </li>
+        </ul>
+       
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/1-MINIOS/1.jpg" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">
+                        Dispositivos compatíveis
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </footer>
+
+    
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
